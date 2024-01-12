@@ -1,11 +1,10 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import Todo from "./pages/Todo";
 
 function App() {
   return (
     <>
-      <h1 className="text-xl font-bold">Redux Todo</h1>
-      <Button>Shadcn</Button>
+      <Todo />
     </>
   );
 }
